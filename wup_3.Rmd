@@ -41,9 +41,13 @@ boxplot(alcohol~Seat,data=davisdata)
 
 students in the back tend to consume more ounces per week then front and middle  
 
-## Numerical Summarys 
+## Numerical Summaries 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+```
 
+numerical summary shows that the students who sit in the back are consuming 5 times more than alcohol than those in the middle and front row.
 
 ## Inferential Tests
 
