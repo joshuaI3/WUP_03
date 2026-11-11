@@ -58,6 +58,13 @@ summary.aov(model1)
 the P value is 0.000116, we fail to reject the null hypothesis because the value is lower than 0.05  
 and conclude that there is relationship between where someone sits and how much someone drinks  
 
+```{r}
+plot(TukeyHSD(model1))
+```
+
+graph shows there is a difference between students who sit in the front-back and middle-back  
+
+there is no evidence in the difference between the middle-front row   
 
 ## Conclusions
 
