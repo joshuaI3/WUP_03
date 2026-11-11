@@ -1,7 +1,7 @@
 ---
 title: "Alcohol vs Seat choice"
-author: "Your Name"
-date: "Fall 2020"
+author: "Joshua Orozco"
+date: "Fall 2026"
 output: html_document
 ---
 
@@ -17,6 +17,11 @@ davisdata <- read.csv(file="UCDavis.csv")
 Our Goal is to answer this question Is there a difference between the alcohol consumed between the row
  you choose to sit in??
 
+# Introduction
+the question is; is there a relationship between where you sit in class and how much you drink?
+data from UCDavis   
+$H_0$ There is no difference in relationship where you sit in class and how much you drink.   
+$H_A$ There is a difference between where you sit in class and how much you drink   
 
 ## Now add in boxplot
 
