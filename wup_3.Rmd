@@ -50,7 +50,13 @@ favstats(alcohol~Seat,data=davisdata)
 numerical summary shows that the students who sit in the back are consuming 5 times more than alcohol than those in the middle and front row.
 
 ## Inferential Tests
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
 
+the P value is 0.000116, we fail to reject the null hypothesis because the value is lower than 0.05  
+and conclude that there is relationship between where someone sits and how much someone drinks  
 
 
 ## Conclusions
