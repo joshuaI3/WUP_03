@@ -67,5 +67,5 @@ graph shows there is a difference between students who sit in the front-back and
 there is no evidence in the difference between the middle-front row   
 
 ## Conclusions
-
+the question was is there a difference between the alcohol consumed between the row you choose to sit in?
 
